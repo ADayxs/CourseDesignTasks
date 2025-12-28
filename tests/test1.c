@@ -1,7 +1,3 @@
-// compare_two.c
-// 单次比对两个源码文件：preprocess -> tokenize -> TF-IDF(smooth) -> cosine
-// 另外输出 Levenshtein (norm) 与 LCS length.
-// Compile: gcc -std=c99 -O2 -o compare_two compare_two.c -lm
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
